@@ -1,0 +1,459 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="res/css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css">
+  <link rel="icon" href="res/img/logo_b.png">
+  <title>ASETIN</title>
+  <meta name="description" content="Association des étudiants et étudiantes en informatique de l'Université Laval">
+  <meta name="keywords" content="ASETIN Informatique Génie Logiciel Gestion Université Laval Québec"> </head>
+
+<body class="" data-offset="50" data-spy="scroll" data-target=".navbar">
+  <nav class="navbar navbar-inverse navbar-expand-md navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#cover">ASETIN</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#calendar">Calendrier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#goals">Objectifs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#members">Membres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Représentants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Commanditaires</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Liens</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="links">
+              <h6 class="dropdown-header">Associations étudiantes</h6>
+              <a class="dropdown-item" href="http://aeglo.ift.ulaval.ca/" target="_blank">AEGLO</a>
+              <a class="dropdown-item" href="http://asetiig.ift.ulaval.ca/" target="_blank">ASETIIG</a>
+              <a class="dropdown-item" href="http://www.aesgul.com/" target="_blank">AESGUL</a>
+              <a class="dropdown-item" href="http://cadeul.com/accueil/" target="_blank">CADEUL</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Activités</h6>
+              <a class="dropdown-item" href="http://csgames.org/corpo/" target="_blank">CS Games</a>
+              <a class="dropdown-item" href="http://www.festivalsg.com/" target="_blank">Festival de Science et Génie</a>
+              <a class="dropdown-item" href="http://jeuxdegenie.qc.ca/jdg/2018/" target="_blank">Jeux de Génie</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Divers</h6>
+              <a class="dropdown-item" href="https://www.ift.ulaval.ca/accueil/" target="_blank">Département d'informatique et génie logiciel</a>
+              <a class="dropdown-item" href="https://www.fsg.ulaval.ca/accueil/" target="_blank">Faculté des science et de génie</a>
+              <a class="dropdown-item" href="http://www.spla.ulaval.ca/" target="_blank">SPLA</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" aria-haspopup="true" data-toggle="dropdown" id="docs" aria-expanded="false" href="#">Documents</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="links">
+              <a class="dropdown-item" href="https://drive.google.com/open?id=0Bx1p3sBLz4D-MVRQMlpXX3ZMNG8" target="_blank">Charte</a>
+              <a class="dropdown-item" href="https://drive.google.com/drive/folders/0B-rG4GrdET4OdGFscmFTazZ4ZDA" target="_blank">Procès verbaux</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Grilles de cheminement</h6>
+              <a class="dropdown-item" href="https://www.ift.ulaval.ca/programmes-et-cours/premier-cycle/grilles-de-cheminement-ift/" target="_blank">B. IFT</a>
+              <a class="dropdown-item" href="https://www.ift.ulaval.ca/programmes-et-cours/premier-cycle/grilles-de-cheminement-glo/" target="_blank">B. GLO</a>
+              <a class="dropdown-item" href="https://www.ift.ulaval.ca/programmes-et-cours/premier-cycle/grilles-de-cheminement-ift-gestion/" target="_blank">B. IIG</a>
+              <a class="dropdown-item" href="https://www.ift.ulaval.ca/index.php?id=1869" target="_blank">C. IFT</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="cover d-flex align-items-center pt-5 bg-primary" id="cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-md-left align-self-center my-5">
+          <h1 class="text-white display-1">ASETIN</h1>
+          <h4 class="text-white">Association des étudiants et étudiantes en informatique de l'Université Laval</h4>
+          <div class="py-5"> <span class="h3 align-middle">Propulsé par </span>
+            <img class="img-fluid w-25" src="res/img/sponsors/2016-2017/Platine/CGI.png"> </div>
+        </div>
+        <div class="col-md-6 ">
+          <img class="img-fluid d-block mx-auto" src="res/img/logo.png"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section text-center" id="calendar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 w-25 col-sm-12 col-12">
+          <h1 class="my-3 text_secondary text-left">Calendrier</h1>
+        </div>
+        <div class="col-md-12 w-25 col-sm-12 col-12" id="calendarView"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section text-center bg-faded" id="goals">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 w-25 col-sm-12 col-12">
+          <h1 class="my-3 text_secondary text-left">Objectifs</h1>
+        </div>
+        <div class="col-md-12 w-25 col-sm-12 col-12" id="calendarView">
+          <p class="lead text-justify" contenteditable="true">L'ASETIN représente les intérêts des étudiants et étudiantes de premier cycle en informatique auprès des différentes instances officielles de l’Université Laval, sur les différents comités et devant les autres associations étudiantes. Elle se
+            base sur 10 objectifs pour mener à terme son but :&nbsp;
+            <br> </p>
+          <div class="row text-justify">
+            <div class="col-md-6">
+              <ul class="">
+                <li>Informer les membres et diffuser les informations les concernant</li>
+                <li>Offrir des ressources aux membres leur permettant d’échanger de façon constructive tout en les supportant dans leur formation</li>
+                <li>Organiser des activités sociales, culturelles et sportives</li>
+                <li>Faciliter l’intégration des nouveaux étudiants</li>
+                <li>Rassembler les étudiants des différentes cultures</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="">
+                <li>Développer le sentiment d’appartenance au Département</li>
+                <li>Rapprocher les étudiants et le marché du travail</li>
+                <li>Supporter les initiatives et projets étudiants</li>
+                <li>Valoriser la qualité de l’enseignement au Département</li>
+                <li>Encourager la communication entre enseignants et étudiants</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section text-md-left py-5" id="members">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center">
+          <h1 class="my-3 text_secondary">Nos membres</h1>
+          <p class="lead">L'ASETIN est composée de deux sous-associations.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <a href="http://aeglo.ift.ulaval.ca" target="_blank">
+            <img class="img-fluid d-block" src="res/img/AEGLO.png"> </a>
+        </div>
+        <div class="col-md-6">
+          <a href="http://asetiig.ift.ulaval.ca" target="_blank">
+            <img class="img-fluid d-block mx-auto w-50" src="res/img/ASETIIG.png"> </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 py-2 text-center text-md-left">
+          <p class="lead">Nous représentons plus de 920 membres répartis sur quatres programmes différents.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <h5 class="text-center">Baccalauréat
+            <br>Informatique</h5>
+          <h1 class="text-center">490</h1>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5 class="text-center">Baccalauréat
+            <br>Génie Logiciel</h5>
+          <h1 class="text-center">207</h1>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5 class="text-center">Certificat
+            <br>Informatique</h5>
+          <h1 class="text-center">188</h1>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5 class="text-center">Baccalauréat
+            <br>Informatique et gestion</h5>
+          <h1 class="text-center">36</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section py-5 text-center bg-faded" id="team">
+    <div class="container">
+      <h1 class="my-3 text_secondary text-left">L'équipe</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/president.png" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Louis Fortier-Dubois</ctag>
+            <br>
+            <ctag class="team_member_role">Président</ctag>
+            <br>
+            <a href="mailto:president.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/externe.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p class="text-center">
+            <ctag class="team_member_name">Sébastien Dufour-Beauséjour</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux affaires externes</ctag>
+            <br>
+            <a href="https://www.linkedin.com/in/sebastiendufourbeausejour/" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x fa-color-linkedin"></i></a>
+            <a href="mailto:externe.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/tresorier.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Gabriel Laliberté</ctag>
+            <br>
+            <ctag class="team_member_role">Secrétaire-trésorier</ctag>
+            <br>
+            <a href="https://www.facebook.com/gablalib" target="_blank"><i class="fa fa-fw fa-facebook fa-2x fa-color-facebook"></i></a>
+            <a href="https://www.snapchat.com/add/gablalib/" target="_blank"><i class="fa fa-fw fa-snapchat fa-2x fa-snapchat-square fa-color-snapchat"></i></a>
+            <a href="https://www.instagram.com/gablalib/" target="_blank"><i class="fa fa-fw fa-instagram fa-2x fa-color-instagram"></i></a>
+            <a href="mailto:tresorier.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/user_placeholder.png" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Vincent Martel</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux affaires pédagogiques</ctag>
+            <br>
+            <a href="mailto:pedago.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/communications.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Samuel Fortin</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux communications</ctag>
+            <br>
+            <a href="https://www.linkedin.com/in/sfortin614/" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x fa-color-linkedin"></i></a>
+            <a href="https://github.com/samufort" target="_blank"><i class="fa fa-fw fa-2x fa-github fa-color-github"></i></a>
+            <a href="mailto:communication.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/socio.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Amélie Boudreault</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités socio-culturelles</ctag>
+            <br>
+            <a href="https://linkedin.com/in/amélie-boudreault-977566130/" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x fa-color-linkedin"></i></a>
+            <a href="mailto:socio.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/finissant.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Michaël Rousseau</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités finissantes</ctag>
+            <br>
+            <a href="https://www.linkedin.com/in/michael-rousseau-554169133/" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x fa-color-linkedin"></i></a>
+            <a href="https://github.com/Mirou117" target="_blank"><i class="fa fa-fw fa-2x fa-github fa-color-github"></i></a>
+            <a href="mailto:finissants.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/universitaire.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Jacob Bouchard</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités universitaires</ctag>
+            <br>
+            <a href="mailto:festival.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/entreprises.jpeg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Myriam Moar</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux relations avec les entreprises</ctag>
+            <br>
+            <a href="https://www.linkedin.com/in/myriam-moar-28b451a8/" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x fa-color-linkedin"></i></a>
+            <a href="mailto:entreprises.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-envelope fa-2x fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/sport.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Simon Dulude</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités sportives</ctag>
+            <br>
+            <a href="mailto:sports.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Jean-Alexandre Beaumont</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités informatiques</ctag>
+            <br>
+            <a href="mailto:info-externe.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/user_placeholder.png" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Charles-Étienne Tremblay</ctag>
+            <br>
+            <ctag class="team_member_role">VP aux activités d'initiation</ctag>
+            <br>
+            <a href="mailto:initiation.asetin@ift.ulaval.ca"><i class="fa fa-fw fa-2x fa-envelope fa-color-envelop"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/user_placeholder.png" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Jean-Alexandre Beaumont</ctag>
+            <br>
+            <ctag class="team_member_role">Représentant GLO</ctag>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/externe.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Sébastien Dufour-Beauséjour</ctag>
+            <br>
+            <ctag class="team_member_role">Représentant IIG</ctag>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <img src="res/img/team/buggyboo.jpg" class="d-block mx-auto rounded-circle img-fluid my-3 w-75">
+          <p>
+            <ctag class="team_member_name">Buggy Boo</ctag>
+            <br>
+            <ctag class="team_member_role">Mascotte</ctag>
+            <br>
+            <!--a href="https://www.facebook.com/BuggyBooUL" target="_blank"><i class="fa fa-fw fa-facebook fa-2x fa-color-facebook"></i></a--></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">Pour contacter toute l'équipe :&nbsp;
+            <a href="mailto:asetin@ift.ulaval.ca">asetin@ift.ulaval.ca</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section py-5 text-center" id="sponsors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text_secondary m-3 text-center">Nos commanditaires</h1>
+          <h1 class="sponsor-header platinum mb-3">Platine</h1>
+          <div class="row">
+            <div class="col-md-4 offset-md-4">
+              <a href="https://www.cgi.com/">
+                <img class="img-fluid d-block mx-auto w-100" src="res/img/sponsors/2016-2017/Platine/CGI.png"> </a>
+            </div>
+          </div>
+          <h1 class="sponsor-header gold mt-4 mb-4">Or</h1>
+          <div class="row">
+            <div class="col-md-4 offset-md-4">
+              <a href="http://ia.ca/" target="_blank">
+                <img class="img-fluid d-block mx-auto w-75" src="res/img/sponsors/2016-2017/Or/IndustrielleAlliance.png"> </a>
+            </div>
+          </div>
+          <h1 class="sponsor-header silver mt-4">Argent</h1>
+          <div class="row">
+            <div class="col-md-4 align-self-center">
+              <a href="https://www.coveo.com/" target="_blank">
+                <img class="img-fluid d-block" src="res/img/sponsors/2016-2017/Argent/Coveo.png"> </a>
+            </div>
+            <div class="col-md-4 align-self-end">
+              <a href="http://ctrl.com/" target="_blank">
+                <img class="img-fluid d-block" src="res/img/sponsors/2016-2017/Argent/CTRL.png"> </a>
+            </div>
+            <div class="col-md-4 align-self-end">
+              <a href="https://www.bentley.com/" target="_blank">
+                <img class="img-fluid d-block" src="res/img/sponsors/2016-2017/Argent/Bentley.png"> </a>
+            </div>
+            <div class="col-md-4 offset-md-4 align-self-end">
+              <a href="https://hortau.com/" target="_blank">
+                <img class="img-fluid d-block" src="res/img/sponsors/2016-2017/Argent/Hortau.png"> </a>
+            </div>
+          </div>
+          <h1 class="sponsor-header bronze mt-3">Bronze</h1>
+          <div class="row">
+            <div class="col-md-4 offset-md-4">
+              <a href="https://www.lacapitale.com/fr" target="_blank">
+                <img class="img-fluid d-block" src="res/img/sponsors/2016-2017/Bronze/Capitale.png"> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <h3 class="">Nos coordonnées</h3>
+          <p>Pavillon Adrien-Pouliot - Local 0312-A
+            <br>1065 avenue de la Médecine,&nbsp;Université Laval
+            <br><abbr title="Phone">Québec (Québec) G1V 0A6&nbsp;<br></abbr></p>
+        </div>
+        <div class="col-md-6 text-center">
+          <h3 class="">Rejoins-nous sur nos plateformes !</h3>
+          <br>
+          <a href="https://www.facebook.com/asetinUL" target="blank"><i class="fa fa-fw fa-facebook fa-3x  fa-color-facebook"></i></a>
+          <a href="https://asetin.slack.com/" target="blank"><i class="fa fa-fw fa-slack fa-3x fa-color-slack"></i></a>
+          <a href="https://github.com/asetinUL" target="blank"><i class="fa fa-fw fa-github fa-3x text-white"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center">© Copyright 2017 ASETIN - Tous droits réservés
+            <br>Conception :
+            <a href="https://www.linkedin.com/in/sfortin614/" target="_blank">Samuel Fortin</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-105396624-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="res/js/smooth-scroll.js"></script>
+  <script src="res/js/moment.min.js"></script>
+  <script src="res/js/fullcalendar.min.js"></script>
+  <script src="res/js/fr-ca.js"></script>
+  <script src="res/js/gcal.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('#calendarView').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyASbpBMDjORW_Awj782EEQb_x_rIzRCvnA',
+            events: {
+                googleCalendarId: 'avau0vj58et9u7fi8ilisllhjc@group.calendar.google.com'
+            },
+            fixedWeekCount: false,
+            height: 400,
+            header: {
+            	left: 'prev,next',
+            	center: 'title',
+            	right: 'listWeek,month'
+        		}
+        });
+    });
+  </script>
+</body>
+
+</html>

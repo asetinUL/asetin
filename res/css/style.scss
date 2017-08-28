@@ -1,0 +1,139 @@
+/*!
+ * Gaia theme v4.0.0-alpha.6
+ * Homepage: https://pingendo.com
+ * Copyright 2014-2017 Pingendo
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             #2c2c82;
+
+$brand-success:             #5cb85c;
+$brand-info:                #333;
+$brand-warning:             #f0ad4e;
+$brand-danger:              #d9534f;
+$brand-inverse:             #292b2c;
+ 
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+ 
+$enable-rounded:            true !default;
+$enable-shadows:            false;
+$enable-gradients:          false;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+// Variables
+//
+// Theme settings.
+
+$body-bg: white;
+$body-color: #454545;
+$body-color-inverse: invert($body-color) !default;
+$link-color: #00b0eb;
+
+$font-family-base: Lato;
+$headings-font-family: Lato;
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-h1: 2.5 * $font-size-base;
+$font-size-h2: 2 * $font-size-base;
+$font-size-h3: 1.75 * $font-size-base;
+$font-size-h4: 1.5 * $font-size-base;
+$font-size-h5: 1.25 * $font-size-base;
+$font-size-h6: $font-size-base;
+
+$display1-size: 6 * $font-size-base;
+$display2-size: 5.5 * $font-size-base;
+$display3-size: 4.5 * $font-size-base;
+$display4-size: 3.5 * $font-size-base;
+
+$spacer: 0.8rem;
+
+@import 'bootstrap-4.0.0-alpha.6';
+
+.sponsor-header {
+	border: 3px solid $brand-primary;
+  border-radius: 1px;
+}
+
+.platinum {
+	border-color: #e5e4e2;
+}
+
+.gold {
+	border-color: #CFB53B;
+}
+
+.silver {
+	border-color: #D3D3D3;
+}
+
+.bronze {
+	border-color: #CD7F32;
+}
+
+.text_secondary {
+	color: #e6007e;
+}
+
+.fa-color-facebook {
+  color: #3b5998;
+}
+
+.fa-color-snapchat {
+  color: #fffc00;
+}
+
+.fa-color-instagram {
+  color: #125688;
+}
+
+.fa-color-github {
+  color: #000000;
+}
+
+.fa-color-envelop {
+  color: $brand-primary;
+}
+
+.fa-color-linkedin {
+  color: #007bb5;
+}
+
+.fa-color-slack {
+	color: #e01563;
+}
+
+@media (min-width: 576px) { 
+  .team_member_name {
+		font-size: 1.2rem;
+	}
+  
+  .team_member_role {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) { 
+	.team_member_name {
+		font-size: 1rem;
+	}
+  
+  .team_member_role {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) { 
+  .team_member_name {
+		font-size: 1.1rem;
+	} 
+}
